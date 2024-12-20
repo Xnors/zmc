@@ -36,20 +36,27 @@
     height: 50%;
     width: 0.1vw;
     background-color: #fff;
-    margin: 0 1vh;
+    margin: 1vh;
   }
   .qq-number,
   a {
-    color: #fff;
+    text-align: center;
+    color: #ffffffa0;
     text-decoration: none;
     font-family: "deyihei";
     font-size: calc(1.8vh + 1.8vw);
-    margin: 0 2vw;
+    width: 10vw;
+    transition: width 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .qq-number:hover,
+  a:hover {
+    width: 20vw;
+    color: #ffffffff;
   }
 }
 
-.qq-number-show-box{
-    font-family: deyihei;
-    color: #fff;
-    font-size: calc(1vh + 1vw);
+.qq-number-show-box {
+  font-family: deyihei;
+  color: #fff;
+  font-size: calc(1vh + 1vw);
 }

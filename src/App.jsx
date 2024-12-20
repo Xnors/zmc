@@ -24,7 +24,6 @@ function App() {
           <div className="small-welcome">嘿，这里是</div>
           <div className="big-welcome">张某赐呦!</div>
         </div>
-        <div className="qq-number-show-box">{qqNumber}</div>
         <div className="links">
           <a href="#">关注我</a>
           <div className="split-line"></div>
@@ -39,6 +38,7 @@ function App() {
           <div className="split-line"></div>
           <a href="#">提建议</a>
         </div>
+        <div className="qq-number-show-box">{qqNumber}</div>
       </div>
     </>
   );
