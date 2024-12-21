@@ -12,7 +12,7 @@ function App() {
       console.log("开始打字");
       setQQNumber(qn.slice(0, iter));
       iter++;
-      if (iter >= qn.length) {
+      if (iter >= qn.length + 1) {
         clearInterval(timer);
       }
     }, 30);

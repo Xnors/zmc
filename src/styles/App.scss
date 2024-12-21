@@ -53,6 +53,15 @@
     width: 20vw;
     color: #ffffffff;
   }
+  @media screen and (max-width: 768px) {
+    a {
+      width: 15vw;
+    }
+    a:hover {
+      width: 24vw;
+      color: #ffffffff;
+    }
+  }
 }
 
 .qq-number-show-box {
